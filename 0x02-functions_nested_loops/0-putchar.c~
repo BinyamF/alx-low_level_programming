@@ -1,9 +1,0 @@
-#include <stdio.h>
-/*
- * main function prints out _putchar on new line
- */
-int main (void)
-{       
-        printf("/n_putchar");
-        return (0);
-}
