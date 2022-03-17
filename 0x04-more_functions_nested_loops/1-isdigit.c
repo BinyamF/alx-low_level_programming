@@ -1,10 +1,13 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _isdigit - Entry Point
- * @c : the checked character
- * Return:1 0r 0
+ * _isdigit - check for a digit
+ * @c : character to check
+ * Return:0 or 1
  */
+
 int _isdigit(int c)
 {
-	return (((c > 47 && c < 58)) ? 1 : 0);
+	return (c >= 48 && c <= 57);
+
 }

@@ -1,11 +1,13 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_most_numbers - Entry Point
- * Return:numbers
+ * print_most_numbers - prints numbers
+ * Return:0
  */
+
 void print_most_numbers(void)
 {
-	int n = 0;
+	char n = 0;
 
 	while (n <= 9)
 	{
@@ -13,7 +15,9 @@ void print_most_numbers(void)
 		{
 			_putchar('0' + n);
 		}
+
 		n++;
 	}
 	_putchar('\n');
+
 }

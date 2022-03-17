@@ -1,16 +1,20 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_numbers - Entry Point
- * Return:numbers
+ * print_numbers - prints numbers
+ * Return:0
  */
+
 void print_numbers(void)
 {
-	int n = 0;
+	char n = 0;
 
 	while (n <= 9)
 	{
-		_putchar(n + 48);
+		_putchar('0' + n);
 		n++;
+
 	}
 	_putchar('\n');
+
 }
